@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://www.bits-atmos.org/ -->
+<html lang="en" class=" js csstransitions desktop portrait"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Atmos | BITS Pilani Hyderabad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Atmos annual Technical Festival of BITS Pialni Hyderabad ">
+<meta name="author" content="DOTA BITS HYDERABAD">
+
+<!-- Standard Favicon--> 
+<link rel="shortcut icon" href="http://www.bits-atmos.org/images/favicon/icon.png">
+
+<!-- Standard iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="57x57" href="http://www.bits-atmos.org/images/touchicons/apple-touch-icon-57-precomposed.html">
+<!-- Retina iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.bits-atmos.org/assets/touchicons/apple-touch-icon-114-precomposed.html">
+<!-- Standard iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.bits-atmos.org/assets/touchicons/apple-touch-icon-72-precomposed.html">
+<!-- Retina iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="144x144" href="http://www.bits-atmos.org/assets/touchicons/apple-touch-icon-144-precomposed.html">
+
+<!-- Bootstrap CSS Files -->
+<link href="http://www.bits-atmos.org/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+<!-- Custom Fonts Setup via Font-face CSS3 -->
+<link href="http://www.bits-atmos.org/fonts/fonts.css" rel="stylesheet">
+<!-- CSS files for plugins -->
+<link href="http://www.bits-atmos.org/stylesheets/pace.preloader.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/animate.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/parallax.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/owl.carousel.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/owl.theme.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/magnific-popup.css" rel="stylesheet"> 
+<link href="http://www.bits-atmos.org/stylesheets/jquery.tweet.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/foliohover.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/fancymenu.css" rel="stylesheet">
+<link href="http://www.bits-atmos.org/stylesheets/intro.css" rel="stylesheet">
+
+<!-- Main Template Styles -->
+<link href="http://www.bits-atmos.org/stylesheets/main.css" rel="stylesheet">
+<!-- Main Template Responsive Styles -->
+<link href="http://www.bits-atmos.org/stylesheets/main-responsive.css" rel="stylesheet">
+<!-- Main Template Retina Optimizaton Rules -->
+<link href="http://www.bits-atmos.org/stylesheets/main-retina.css" rel="stylesheet">
+<!-- LESS stylesheet for managing color presets -->
+<link rel="stylesheet" href="http://www.bits-atmos.org/less/color.css">
+<!-- LESS JS engine
+<script src="less/less-1.5.0.min.js"></script>-->
+<script src="./Atmos   BITS Pilani Hyderabad_files/modernizr.custom.js"></script>
+
+ <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.js"></script>
+      <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+</head>
+
+
+<body class=" pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+
+
+<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a class="fancy-nav-close scroll" href="http://www.bits-atmos.org/#slide1"><span>Home</span></a></li>
+					<li><a class="fancy-nav-close scroll" href="http://www.bits-atmos.org/#slide2"><span>Intro</span></a></li>
+					<li><a class="fancy-nav-close scroll" href="http://www.bits-atmos.org/#about"><span>About</span></a></li>
+					<li><a class="fancy-nav-close scroll" href="http://www.bits-atmos.org/#contact"><span>Contact</span></a></li>
+				</ul>
+			</nav>
+</div>
+
+
+<div class="static-side-navigation-wrap grey-bg">
+				<p><button id="trigger-overlay" type="button"></button></p>
+	<ul class="navigation">
+		<li data-slide="1" class="active"></li>
+		<li data-slide="2" class=""></li>
+		<li data-slide="3" class=""></li>
+		<li data-slide="4" class=""></li>
+	        	<li data-slide="5" class=""></li>
+	        	<li data-slide="6" class=""></li>
+	        	<li data-slide="7" class=""></li>
+	       	 <li data-slide="8" class=""></li>
+	</ul>
+	<div class="vertical-logo">
+		<a href="http://www.bits-atmos.org/#"><img src="./Atmos   BITS Pilani Hyderabad_files/vertical-logo copy.png"></a>
+	</div>
+
+</div>
+
+
+
+
+
+	<div class="slide intro intro-with-sidenav text-center" id="slide1" style="height: 643px;">
+
+
+				<article class="promo-area promo-area-color">
+					<div id="intro-carousel" class="intro-carousel owl-carousel owl-nav-sticky-wide owl-theme" style="opacity: 1; display: block; height: 643px;">
+
+						<div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2598px; left: 0px; display: block; -webkit-transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 1299px;"><div class="item intro-slide-bg-one" style="height: 643px;">
+							<article class="promotional-area">
+								<div class="promotional-area-inner promotional-area-inner-left dark text-center">
+									<br>
+									
+									
+									<h5>Welcome To</h5>
+									<h3 style="font-size:48px;"><span>Atmos</span></h3>
+									<h3 style="font-size:24px;">The Annual Technical Festival of BITS Pilani Hyderabad Campus </h3>
+									<h5>October 9-12</h5>
+
+									<br>
+									<br>
+									<br>
+
+									<a class="intro-trigger-button scroll" href="http://www.bits-atmos.org/#slide2">Enter Site</a>
+								</div>
+							</article>
+									
+						</div></div></div></div>
+
+					<div class="owl-controls clickable" style="display: none;"><div class="owl-buttons"><div class="owl-prev"></div><div class="owl-next"></div></div></div></div>
+						
+				</article>
+
+	
+	</div>
+	<!--End Slide 1-->
+
+
+	<div class="slide parallax-layer" id="slide2" data-slide="2" style="background-position: 50% 179px;">
+
+		<article class="showcase-area">
+			<div class="showcase-area-inner white text-left">
+				<h5 class="wow slideInLeft animated" style="visibility: visible;"><span>01<strong class="white">/ 07</strong></span></h5>
+				<h1 class="wow slideInLeft animated" style="visibility: visible;">Robowars</h1>
+				<h6 class="wow slideInLeft animated" style="visibility: visible;"><span>headliner</span></h6>
+				<div class="showcase-proceed"><a href="http://www.bits-atmos.org/#slide3" class="scroll"><img src="./Atmos   BITS Pilani Hyderabad_files/next.png"></a></div>
+			</div>
+		</article>
+		
+	</div>
+	<!--End Slide 2-->
+
+
+	<div class="slide video-layer" id="slide3" data-slide="3">
+
+		<div id="video-container-01" class="video-container" style="width: 1349px; height: 600px;">
+			<video autoplay="" loop="" muted="" style="width: 1349px;">
+				<source src="videos/01.mp4" type="video/mp4">
+				<source src="videos/01.webm" type="video/webm">
+				<source src="videos/01.ogg" type="video/ogg">
+			</video>
+
+			<div class="video-overlay-content showcase-area-inner white text-left">
+				<h5 class="wow slideInRight animated" style="visibility: visible;"><span>02<strong class="white">/ 07</strong></span></h5>
+				<h1 class="wow slideInRight animated" style="visibility: visible;">Atmos Teaser</h1>
+				<h6 class="wow slideInRight animated" style="visibility: visible;"><span>Dove Bits Hyd</span></h6>
+				<div class="showcase-proceed"><a href="http://www.bits-atmos.org/#slide4" class="scroll"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/next.png"></a></div>
+			</div>
+			
+		</div>
+
+	</div>
+	<!--End Slide 3-->
+
+
+    	<div class="slide parallax-layer" id="slide4" data-slide="4" style="background-position: 50% 145px;">
+
+		<article class="showcase-area">
+			<div class="showcase-area-inner white text-left">
+				<h5 class="wow slideInLeft animated" style="visibility: visible;"><span>03<strong class="white">/ 07</strong></span></h5>
+				<h1 class="wow slideInLeft animated" style="visibility: visible;">Windows Appfest</h1>
+				<h6 class="wow slideInLeft animated" style="visibility: visible;"><span>Workshop</span></h6>
+				<div class="showcase-proceed"><a href="http://www.bits-atmos.org/#slide5" class="scroll"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/next.png"></a></div>
+			</div>
+		</article>
+
+
+    	</div>
+    	<!--End Slide 4-->
+
+
+	<div class="slide parallax-layer" id="slide5" data-slide="5" style="background-position: 50% -47px;">
+		
+		<article class="showcase-area">
+			<div class="showcase-area-inner white text-left">
+				<h5 class="wow slideInRight animated" style="visibility: visible;"><span>04<strong class="white">/ 07</strong></span></h5>
+				<h1 class="wow slideInRight animated" style="visibility: visible;">Agam at BITS Pilani Hyderabd</h1>
+				<h6 class="wow slideInRight animated" style="visibility: visible;"><span>Proshows</span></h6>
+				<div class="showcase-proceed"><a href="http://www.bits-atmos.org/#slide6" class="scroll"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/next.png"></a></div>
+			</div>
+		</article>
+		
+	</div>
+	<!--End Slide 5-->
+
+
+	<div class="slide parallax-layer" id="slide6" data-slide="6" style="background-position: 50% 146px;">
+
+		<article class="showcase-area">
+			<div class="showcase-area-inner white text-left">
+				<h5 class="wow slideInLeft animated" style="visibility: visible;"><span>05<strong class="white">/ 07</strong></span></h5>
+				<h1 class="wow slideInLeft animated" style="visibility: visible;">Cubing Atmosphere</h1>
+				<h6 class="wow slideInLeft animated" style="visibility: visible;"><span>Competitions</span></h6>
+				<div class="showcase-proceed"><a href="http://www.bits-atmos.org/#slide7" class="scroll"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/next.png"></a></div>
+			</div>
+		</article>
+		
+	</div>
+	<!--End Slide 6-->
+
+
+	<div class="slide parallax-layer" id="slide7" data-slide="7" style="background-position: 50% 163px;">
+
+		<article class="showcase-area">
+			<div class="showcase-area-inner white text-left">
+				<h5 class="wow slideInRight animated" style="visibility: visible;"><span>06<strong class="white">/ 07</strong></span></h5>
+				<h1 class="wow slideInRight animated" style="visibility: visible;">Mini Gp 2013</h1>
+				<h6 class="wow slideInRight animated" style="visibility: visible;"><span>Headliner Events</span></h6>
+				<div class="showcase-proceed"><a href="http://www.bits-atmos.org/#slide8" class="scroll"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/next.png"></a></div>
+			</div>
+		</article>
+		
+	</div>
+	<!--End Slide 7-->
+
+	<div class="slide parallax-layer" id="slide8" data-slide="8" style="background-position: 50% 185px;">
+
+		<article class="showcase-area">
+			<div class="showcase-area-inner white text-left">
+				<h5 class="wow slideInLeft animated" style="visibility: visible;"><span>07<strong class="white">/ 07</strong></span></h5>
+				<h1 class="wow slideInLeft animated" style="visibility: visible;">Law Follower</h1>
+				<h6 class="wow slideInLeft animated" style="visibility: visible;"><span>Robotics / Electronics</span></h6>
+				<div class="showcase-proceed"><a href="http://www.bits-atmos.org/#about" class="scroll"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/next.png"></a></div>
+			</div>
+		</article>
+		
+	</div>
+	<!--End Slide 8-->
+
+
+
+
+
+
+
+
+<!-- page-section : starts -->
+<section id="about" class="about page-section">
+	<section class="inner-section">
+
+		<section class="container">
+		
+			<div class="row">
+				<article class="col-md-12 text-center">
+
+					<h1 class="main-heading  wow bounceInUp animated" style="visibility: visible;">About ATMOS</h1>
+					<div class="liner"><span class="color-bg"></span></div>
+					
+					<p class="promo-text-main  wow slideInRight animated" style="visibility: visible;">Atmos is the national annual techno management fest of Bits Pilani Hyderbad Campus. The fest started in 2012 and has evolved a lot over the years. On one hand, the guest lectures and technical workshops are oriented to create an atmosphere to enjoy and understand the solid foundations and growth of technology
+					in the contemporary world, on the other hand, there are events and competitions in every possible branch of
+					science and management that challenge some of the best minds across the country to prove of their&nbsp;
+					technical expertise and competitive spirit.<br>
+				        </p>
+				</article>
+			</div>
+
+		</section>
+		<!-- container : ends -->
+			
+	</section>
+	<!-- inner-section : ends -->
+
+
+	<section class="inner-section add-top-half inner-bg about-inner-bg" style="background-size: 100%;">
+
+
+		
+
+		<div class="item">
+
+			<section class="container">
+
+
+				<div class="row wow slideInLeft animated" style="visibility: visible;">
+					<article class="col-md-6 text-left about-inner-content dark-low-bg equal-height-one" style="height: 271px;">
+						<h3 class="white">9th - 12th October, 2014</h3>
+						<div class="liner-small-left"><span class="color-bg"></span></div>
+						<p>This October, we promise to incorporate every possible aspect that helps us provide a comprehensive learning 
+					  experience, with a conscious, coordinated and planned effort of a marvellous conglomeration of all branches
+				      of engineering and all fields of science.</p>
+					</article>
+				  <article class="col-md-6 text-left about-inner-content color-bg equal-height-one" style="height: 271px;">
+						<a href="https://www.facebook.com/bits.atmos">
+							<h1 class="white">KNOW OUR FEST MORE</h1>
+							<div class="proceed-btn-wrap"><img src="./Atmos   BITS Pilani Hyderabad_files/proceed-white.png" alt="atmos" border="0" title="atmos"></div>
+						</a>
+				  </article>
+			  </div>
+
+			</section>
+			<!-- container : ends -
+
+		</div>
+		<!-- item : ends -->
+
+
+		
+		<!-- item : ends -->
+		
+		<!-- carousel : ends -->
+			
+	</div></section>
+	<!-- inner-section : ends -->
+
+	
+</section>
+<!-- page-section : ends -->
+
+
+
+
+
+<!-- page-section : starts 
+<section id="testimonials" class="testimonials separator-section">
+	<section class="inner-section">
+
+		<section class="container">
+		
+			<div class="row">
+				<article class="col-md-12 text-center">
+
+
+					<div id="testimonials-carousel" class="testimonials-carousel owl-carousel owl-nav-sticky-wide">
+
+						<div class="item testimonial-block">
+								<div class="user-thumb"><img title="atmos" alt="atmos" src="images/user.png"/></div>
+								<h3>"atmos is anmazing template. Easy to use, one page with parallax. I love the way Designova created this template, it is clean and simple."</h3>
+								<div class="liner-small-center"><span class="color-bg"></span></div>
+								<h5><span>Kelly Lovell</span></h5>
+								<p class="testimonial-brand"><span>Noname Interactive Agency</span></p>
+						</div>
+
+						<div class="item testimonial-block">
+								<div class="user-thumb"><img title="atmos" alt="atmos" src="images/user.png"/></div>
+								<h3>"Have you ever searched for a parallax template seemlessly integrated into a single page? atmos from Designova will be the perfect answer!"</h3>
+								<div class="liner-small-center"><span class="color-bg"></span></div>
+								<h5><span>Deborah Sordano</span></h5>
+								<p class="testimonial-brand"><span>OneFourtyThree Club</span></p>
+						</div>
+
+						<div class="item testimonial-block">
+								<div class="user-thumb"><img title="atmos" alt="atmos" src="images/user.png"/></div>
+								<h3>"Back in 2013, I loved their template Persona. Now I see atmos and I am fallen in love with it. No doubt, this template will rock on for sure."</h3>
+								<div class="liner-small-center"><span class="color-bg"></span></div>
+								<h5><span>Jake Southbridge</span></h5>
+								<p class="testimonial-brand"><span>Astonn Media Company</span></p>
+						</div>
+
+					</div>
+					
+				</article>
+			</div>
+
+		</section>
+		<!-- container : ends 
+			
+	</section>
+	inner-section : ends 
+</section>-->
+
+
+
+
+<!-- featured-roller  
+ <section id="featured" class="featured featured-roller text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="white">One Year. 8000+ Websites</h3>
+				<h5><span>Powered by Designova themes!</span></h5>
+				<img class="img-responsive wow fadeInUpBig" data-wow-offset="200" src="images/featured.png" alt="atmos" title="atmos">
+                        		</div>
+		</div>
+	</div>
+</section>
+-->
+
+
+
+
+<!-- page-section : starts --><!-- page-section : starts --><!-- page-section : ends -->
+
+
+
+
+
+<!-- page-section : starts --><!-- page-section : ends -->
+
+
+
+
+
+
+
+<!-- page-section : starts -->
+<section id="contact" class="contact separator-section">
+	<section class="inner-section">
+
+		<section class="container">
+
+			<div class="row">
+				<article class="col-md-12 text-center">
+
+					<h1 class="main-heading dark wow slideInDown animated" style="visibility: visible;">Contact Us</h1>
+					<div class="liner"><span class="dark-bg"></span></div>
+					
+					<p class="promo-text dark wow slideInDown animated" style="visibility: visible;">We would love to hear from you. Feel free to contact us for any queries.</p>
+					
+				</article>
+			</div>
+		
+			<div class="row">
+				<article class="col-md-12 text-center">
+
+
+					<div id="contact-carousel" class="contact-carousel owl-carousel owl-nav-sticky-wide owl-theme" style="opacity: 1; display: block;">
+
+						<div class="owl-wrapper-outer autoHeight" style="height: 307px;"><div class="owl-wrapper" style="width: 3720px; left: 0px; display: block;"><div class="owl-item" style="width: 930px;"><div class="item contact-block">
+								<div class="email-thumb"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/email.png"></div>
+								<a class="email-us presence-ease" href="http://www.bits-atmos.org/#">info@bits-atmos.org</a>
+								<p class="contact-subline"><span>We are always happy to answer your queries</span></p>
+								<a class="btn btn-presence btn-presence-color presence-ease contact-form-expand contact-carousel-custom-next-trigger" href="http://www.bits-atmos.org/#">Follow Us</a>
+						</div></div><div class="owl-item" style="width: 930px;"><div class="item contact-block">
+								<div class="twitter-thumb"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/tweet.png"></div>
+								<a class="email-us presence-ease" href="https://twitter.com/BITSAtmos">Follow Us</a>
+								<p class="contact-subline"><span>We are always active on twitter</span></p>
+								<a class="btn btn-presence btn-presence-color presence-ease" href="https://twitter.com/BITSAtmos">@atmos14</a>
+						</div></div></div></div>
+						<!-- contact-block:ends -->
+
+
+
+
+
+
+						
+						<!-- contact-block:ends -->
+
+
+					<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+					
+				</article>
+			</div>
+			<!-- row : ends -->
+
+
+			
+
+
+		</section>
+		<!-- container : ends -->
+			
+	</section>
+	<!-- inner-section : ends -->
+
+</section>
+
+
+
+
+
+
+
+
+<footer id="foot" class="mastfoot">
+
+	
+
+
+	<section class="inner-section foot-top">
+		
+		<section class="container">
+
+			<div class="row">
+				<article class="col-md-9 credentials-wrap">
+					<ul class="credentials text-left">
+						<li><a href="http://www.bits-atmos.org/#"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/mail.png"><span class="credential-text">info@bits-atmos.org</span></a></li>
+						<li><a href="https://www.facebook.com/Mudit1729?fref=ts"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/phone.png"><span class="credential-text">+91-8498085518 (Mudit)</span></a></li>
+						<li><a href="https://www.facebook.com/suhrudh.reddy.39?fref=ts"><img title="atmos" alt="atmos" src="./Atmos   BITS Pilani Hyderabad_files/phone.png"><span class="credential-text">+91-8498964792 (Suhurudh)</span></a></li>
+					</ul>	
+				</article>
+				<article class="col-md-3 credentials-wrap">
+					<ul class="credentials text-right">
+						<li><a href="http://www.bits-pilani.ac.in/hyderabad/visitHyderabadCampus"><img title="presence" alt="presence" src="./Atmos   BITS Pilani Hyderabad_files/locate.png"><span class="credential-text">BITS Pilani Hyderabad</span></a></li>
+					</ul>
+				</article>
+			</div>
+
+		</section>
+
+
+
+	</section>
+
+
+
+	<section class="inner-section foot-bottom">
+		
+		<section class="container">
+
+			<div class="row">
+				<article class="col-md-6 social-wrap">
+					<ul class="social text-left">
+						<li><a href="https://www.facebook.com/bits.atmos"><img src="./Atmos   BITS Pilani Hyderabad_files/facebook.png" border="0"></a></li>
+						<li><a href="https://twitter.com/BITSAtmos"><img src="./Atmos   BITS Pilani Hyderabad_files/twitter.png" border="0"></a></li>
+						<li><a href="http://www.bits-pilani.ac.in/hyderabad/"><img src="./Atmos   BITS Pilani Hyderabad_files/google.png" border="0"></a></li>
+					</ul>
+				</article>
+				<article class="col-md-6 credits-wrap text-right">
+					<p><br></p>
+					<p>Copyright © 2014 DoTA BITS Pilani Hyderabad</p>
+				</article>
+			</div>
+
+		</section>
+
+
+	</section>
+	
+	
+
+</footer>
+
+
+
+<!-- Mast-wrap:ends -->
+
+
+
+<!-- Core JS Libraries -->
+<script src="./Atmos   BITS Pilani Hyderabad_files/jquery.js" type="text/javascript"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/bootstrap.js"></script> 
+<!-- JS Plugins -->
+<script src="./Atmos   BITS Pilani Hyderabad_files/pace.min.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/retina.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/device.min.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/owl.carousel.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/waypoints.min.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/jquery.tweet.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/okvideo.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/jquery.mixitup.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/flexslider.js"></script> 
+<script src="./Atmos   BITS Pilani Hyderabad_files/jquery.magnific-popup.js"></script> 
+<script src="./Atmos   BITS Pilani Hyderabad_files/smooth-scroll.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/form-validation.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/classie.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/fancymenu-rollin.js"></script>
+<!-- Parallax Plugins Setup -->
+<script src="./Atmos   BITS Pilani Hyderabad_files/jquery.parallax.min.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/parallax-init.js"></script>
+<!-- Scroll Animations Setup -->
+<script src="./Atmos   BITS Pilani Hyderabad_files/wow.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/animations-init.js"></script>
+<!-- For videos in showcase slides -->
+<script src="./Atmos   BITS Pilani Hyderabad_files/showcase-video.js"></script>
+<!-- Custom Scripts Setup -->
+<script src="./Atmos   BITS Pilani Hyderabad_files/carousel-init.js"></script> 
+<script src="./Atmos   BITS Pilani Hyderabad_files/portfolio.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/intro.js"></script>
+<script src="./Atmos   BITS Pilani Hyderabad_files/main.js"></script>
+
+
+
+
+
+</body></html>

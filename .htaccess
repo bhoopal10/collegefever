@@ -1,0 +1,24 @@
+RewriteEngine on
+
+AddHandler application/x-httpd-php53 .php .php5 .php4 .php3
+
+RewriteEngine On
+RewriteOptions Inherit
+RewriteBase /
+
+RewriteRule ^alumni-sit$ /index.php?option=com_content&view=article&id=8&itemid=38[L]
+
+#RewriteCond %{HTTP_HOST} ^collegefever$ [OR]
+#RewriteCond %{HTTP_HOST} ^collegefever$
+#RewriteRule ^/?$ "collegefever\/" [R=301,L]
+
+AddDefaultCharset UTF-8
+Options +FollowSymlinks
+
+#RewriteEngine On
+#RewriteOptions Inherit
+#RewriteBase /
+
+#RewriteRule ^alumni-list$ /index.php?option=com_eventregister [L]
+
+#RewriteRule ^([A-Za-z0-9-]+)/?$ event.php?url=$1 [NC,L] # Process parrots

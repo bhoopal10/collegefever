@@ -1,0 +1,208 @@
+BODY {
+        BACKGROUND: #f9f8f8
+}
+.
+.list {
+        
+}
+.list TH {
+        
+}
+.list TD {
+        
+}
+TH {
+        BORDER-RIGHT: #ffffff 1px solid; BACKGROUND: #E9E9E9; BORDER-BOTTOM: #CCCCCC 1px solid;BORDER-TOP: #666666 2px solid; TEXT-ALIGN: left
+}
+TH A:link {
+        COLOR: #000000; TEXT-DECORATION: none
+}
+TH A:visited {
+        COLOR: #000000; TEXT-DECORATION: none
+}
+TH A:active {
+        COLOR: #000000; TEXT-DECORATION: none
+}
+TH A:hover {
+        TEXT-DECORATION: underline
+}
+.sort {
+        BACKGROUND-COLOR: #abbeef
+}
+.evenrowbg {
+        BACKGROUND-COLOR: #f0f0f0
+}
+.oddrowbg {
+        BACKGROUND-COLOR: #ffffff
+}
+.footnote {
+        PADDING-LEFT: 12px; COLOR: #666666; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+LEGEND {
+        COLOR: #FF800F
+}
+.formFields TD {
+        TEXT-ALIGN: left
+}
+.name {
+        FONT-WEIGHT: bold; COLOR: #555555
+}
+.nameError {
+        FONT-WEIGHT: bold; COLOR: #555555
+}
+.error {
+        BACKGROUND: #ffd9d9
+}
+.error .name {
+        BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cc0000
+}
+.error .hint {
+        COLOR: #333333
+}
+.required {
+        COLOR: #cc0000
+}
+.formFields TD.unlimited {
+        BORDER-LEFT: medium none
+}
+.formFields TD.limit {
+        BORDER-RIGHT: medium none
+}
+.hint {
+        COLOR: #555555
+}
+.formButtons {
+        PADDING-TOP: 5px
+}
+.pathbar {
+        BACKGROUND: #ffffff; COLOR: #444444
+}
+.pathbar A:link {
+        COLOR: #444444
+}
+.pathbar A:visited {
+        COLOR: #444444
+}
+.screenTitle {
+        BACKGROUND: #ffffff; BORDER-BOTTOM: #666666 1px solid
+}
+.screenTitle TD {
+        FONT-SIZE: 13px; COLOR: #FF800F; FONT-WEIGHT: BOLD;
+}
+.screenTitle .name {
+        FONT-WEIGHT: normal; COLOR: #0d1de0
+}
+.screenTitle B {
+        FONT-WEIGHT: normal; COLOR: #0d1de0
+}
+.specific {
+        FONT-WEIGHT: bold
+}
+.reportIndex A:link {
+        COLOR: #333333
+}
+.reportIndex A:visited {
+        COLOR: #333333
+}
+.reportSection {
+        BORDER-TOP: #cccccc 1px solid
+}
+A.mailalias:link {
+        COLOR: #555555
+}
+A.mailalias:visited {
+        COLOR: #555555
+}
+.notdelitems {
+        COLOR: #444444
+}
+CODE {
+        FONT-SIZE: 10px; COLOR: #444444; FONT-FAMILY: Courier, mono
+}
+.code {
+        FONT-SIZE: 10px; FONT-FAMILY: Courier, mono
+}
+HR {
+        COLOR: #cccccc; HEIGHT: 1px; BACKGROUND-COLOR: #cccccc
+}
+TD.barOverFilled {
+        BACKGROUND: url('fill-over.gif'); 
+}
+TD.barFilled {
+        BACKGROUND: url('fill.gif'); 
+}
+TD.barEmpty {
+        BACKGROUND: url('empty.gif'); 
+}
+.commonButton BUTTON {
+        FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent
+}
+.commonButton {
+        FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent
+}
+.commonButton BUTTON {
+        border:0px solid white; BACKGROUND-IMAGE: url('btn_bg.gif'); BACKGROUND-REPEAT: no-repeat
+}
+UNKNOWN {
+        BACKGROUND-IMAGE: url('btn_bg-disabled.gif'); COLOR: #999999
+}
+.toolsArea .commonButton {
+        PADDING-RIGHT: 0px; BACKGROUND-POSITION: center top; PADDING-LEFT: 0px; FLOAT: left; BACKGROUND-IMAGE: url('bth_default-button_bg.gif'); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 111px; CURSOR: pointer; PADDING-TOP: 32px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 27px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center; TEXT-DECORATION: underline
+}
+.toolsArea SPAN.commonButton {
+        CURSOR: default; COLOR: #999999; TEXT-DECORATION: none
+}
+.toolsArea BUTTON {
+        DISPLAY: none
+}
+.formArea .toolsArea .commonButton SPAN {
+        DISPLAY: inline
+}
+.toolsArea .screenButtons .commonButton SPAN {
+        BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.buttons .commonButton {
+        BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.reportTools .commonButton {
+        BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.uplevel .commonButton {
+        BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.listArea .buttons .commonButton BUTTON {
+        DISPLAY: none
+}
+.reportTools .commonButton BUTTON {
+        DISPLAY: none
+}
+.uplevel .commonButton BUTTON {
+        DISPLAY: none
+}
+.buttons .commonButton SPAN {
+        BACKGROUND-POSITION: 0px 1px; PADDING-LEFT: 20px; PADDING-BOTTOM: 4px; CURSOR: pointer; PADDING-TOP: 1px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.reportTools .commonButton SPAN {
+        BACKGROUND-POSITION: 0px 1px; PADDING-LEFT: 20px; PADDING-BOTTOM: 4px; CURSOR: pointer; PADDING-TOP: 1px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.uplevel .commonButton SPAN {
+        BACKGROUND-POSITION: 0px 1px; PADDING-LEFT: 20px; PADDING-BOTTOM: 4px; CURSOR: pointer; PADDING-TOP: 1px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.formArea .commonButton SPAN {
+        DISPLAY: none
+}
+.formButtons .commonButton SPAN {
+        DISPLAY: none
+}
+.paging .commonButton SPAN {
+        DISPLAY: none
+}
+.formButtons BUTTON {
+        WIDTH: 91px; HEIGHT: 21px; TEXT-ALIGN: center
+}
+.formArea BUTTON {
+        WIDTH: 91px; HEIGHT: 21px; TEXT-ALIGN: center
+}
+.paging .commonButton BUTTON {
+        WIDTH: 91px; HEIGHT: 21px; TEXT-ALIGN: center
+}

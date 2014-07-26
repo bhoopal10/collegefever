@@ -1,0 +1,698 @@
+/* CSS Document */
+@media only screen and (max-width: 1001px) 
+{
+	.container1
+	{
+		width:95%;
+	}
+}
+@media only screen and (max-width: 960px) 
+{
+	.container
+	{
+		width:95%;
+	}
+	.banner-main
+	{
+		display:none;
+	}
+	.header-main .logo-area
+	{
+		padding-top:10px; width:25%; float:none;
+	}
+	.header-main
+	{
+		height:auto;
+	}	
+	.header-main .navs-area
+	{
+		width:70%; padding:0px; margin:0px 0px 0px 5%; float:none; display:inline-block;
+	}
+	.header-main .logged-nav
+	{
+		margin-left:5%;
+	}
+	.header-main .navs-area ul
+	{
+		text-align:left;
+	}
+	.header-main .navs-area ul li
+	{
+		width:100%; display:block; margin:0px; height:auto;
+	}
+	.header-main .navs-area ul.logged li
+	{
+		width:100%; display:block; margin:0px;
+	}
+	.header-main .navs-area a
+	{
+		width:96%; padding:2%;
+	}
+	.header-main .navs-area a.user
+	{
+		/*background:url(../images/user_drop.png) no-repeat 175px center;*/ padding-right:2%;
+	}
+	.header-main .navs-area a.user:hover
+	{
+		/*background:url(../images/user_drop.png) no-repeat 175px center #313131;*/
+	}
+	.subnav-main .subnav ul li
+	{
+		width:49%; display:inline-block; height:auto; padding-top:15px; padding-bottom:15px;
+	}
+	.subnav-main .subnav a
+	{
+		height:auto;
+	}
+	.subnav-main .subnav ul li .icon-area
+	{
+		`display:inline-block; width:auto; padding:0px 10px 0px 0px;
+	} 
+	.subnav-main .subnav ul li .txt-area
+	{
+		display:inline-block; width:auto;  padding:0px 0px 0px 0px;
+	}
+	.subnav-main .subnav ul li:hover .drop_bottom
+	{
+	 	display:none;
+	}
+	.subnav-main .subnav ul li:hover .drop_arrow
+	{
+	 	display:none;
+	}
+	.subnav-main .subnav ul li.sel .drop_bottom
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel .drop_arrow
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel2 .drop_bottom
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel2 .drop_arrow
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel3 .drop_bottom
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel3 .drop_arrow
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel4 .drop_bottom
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel4 .drop_arrow
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel5 .drop_bottom
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel5 .drop_arrow
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel6 .drop_bottom
+	{
+ 		display:none;
+	}
+	.subnav-main .subnav ul li.sel6 .drop_arrow
+	{
+ 		display:none;
+	}
+	.filters
+	{
+		width:100%; margin-right:0px;
+	}
+	.filters ul
+	{
+		display:block; width:100%;
+	}
+	.filters ul li
+	{
+		display:inline-block;
+	}
+	.f-calender
+	{
+		width:100%; margin-right:0px;
+	}
+	.f-calender .f-tab
+	{
+		display:block; width:100%;
+	}
+	.f-calender .f-tab .f-cell
+	{
+		display:inline-block; padding:2%;  vertical-align:middle;
+	}
+	.f-calender .f-tab .page1
+	{
+		border:0px;
+	}
+	.f-calender .f-tab .page2
+	{
+		border:0px;
+	}
+	.city-drop
+	{
+		 padding:2%; width:96%; text-align:left;
+	}
+	.city-drop .city-list
+	{
+		width:98%; padding:1%;
+	}
+	.login-area .login-f-area
+	{
+		width:95%; display:block;
+	}
+	.login-area .login-f-area .f-login
+	{
+		display:inline-block; width:40%;
+	}
+	.login-area .or-area
+	{
+		display:inline-block; width:20%;
+	}
+	.login-area .social-area
+	{
+		display:inline-block; width:40%;
+	}
+	.login-area .login-f-area .f-login ul li.submit-area input
+	{
+		min-width:0px; padding:10px;
+	}
+	.event-tab div
+	{
+		width:24%;
+	}
+	.evnt-detls ul li
+	{
+		width:64%;
+	}
+	.evnt-detls ul li.first
+	{
+		width:24%; text-align:left;
+	}
+	.have-ques .h-main .contact-info
+ 	{
+		width:29%; margin-right:5%; border:1%;
+	}
+	.have-ques .h-main .share
+ 	{
+		width:30%; margin-right:0;
+	}
+	.have-ques .h-main .share .share-ic ul li
+ 	{
+		margin-right:1%;
+	}
+	.curoius input
+	{
+		width:100%;
+	}
+	.header-main .navs-area .udrop
+	{
+		left:0px; top:30px; width:170px;
+	}
+	.header-main .navs-area .udrop a
+	{
+		width:150px;
+	}
+}
+@media only screen and (max-width: 860px) 
+{
+	.event-form
+	{
+		width:100%;
+	}
+	.event-form ul li.first
+	{
+		width:24%; margin-right:1%; text-align:left;
+	}
+	.event-form ul li.second
+	{
+		width:75%;
+	}
+	.event-form ul li.in1
+	{
+		width:auto; padding-right:1%
+	}
+	.event-form ul li.in2
+	{
+		width:auto;
+	}
+
+}
+@media only screen and (max-width: 800px) 
+{
+	.events-main .events .contents
+	{
+		display:block;
+	}
+	.events-main .events .contents .img-area
+	{
+		display:block; text-align:center; width:100%;
+	}	
+	.events-main .events .contents .img-area img
+	{
+		width:100%;
+	}
+	.events-main .events .contents
+	{
+		height:auto;
+	}
+	.events-main .events .contents .cont-area
+	{
+		display:block; width:94%;
+	}
+	.load-more a
+	{
+		padding:4% 5%;
+	}
+	.create-event a
+	{
+		padding:4% 5%;
+	}
+	.event-tab div
+	{
+		width:100%; padding-left:0; padding-right:0; border-right:0px; border-bottom:solid 1% #999999; padding-top:12px; padding-bottom:12px;
+	}
+	.event-tab .drop_arrow
+	{
+		bottom:-33px;
+	}
+	.event-tab div.sel
+	{
+		border-bottom:0px;
+	}
+	.evnt-det-main ul li
+	{
+		width:49%; border-bottom:solid 1px #F16439; padding-bottom:5px; margin-bottom:5px;
+	}
+	.evnt-det-main ul li.ev3
+	{
+		margin-top:10px;  width:100%; border-bottom:0px;
+	}
+	.evnt-m-desc .evnt-desc-r .contact-info .tel-det
+	{
+		width:98%; padding:1%;
+	}
+	.evnt-m-desc .evnt-desc-r .contact-info .tel-det ul
+ 	{
+ 		display:block;
+ 	}
+ 	.evnt-m-desc .evnt-desc-r .contact-info .tel-det ul li
+ 	{
+		display:block; text-align:center;
+ 	}
+	.evnt-m-desc .evnt-desc-r .contact-info .tel-det ul li.first
+ 	{
+ 		width:100%; padding-right:0px;
+ 	}
+	.evnt-det-main  .book-now
+	{
+		width:100%; margin-left:0;
+	}
+	.have-ques .h-main .contact-info .tel-det
+	{
+		width:98%; padding:1%;
+	}
+	.have-ques .h-main .contact-info .tel-det ul
+ 	{
+ 		display:block;
+ 	}
+ 	.have-ques .h-main .contact-info .tel-det ul li
+ 	{
+		display:block; text-align:center;
+ 	}
+	.have-ques .h-main .contact-info .tel-det ul li.first
+ 	{
+ 		width:100%; padding-right:0px;
+ 	}
+	.myevent-main .myevent-list1 ul
+ 	{
+		display:block;
+ 	}
+	.myevent-main .myevent-list1 ul li
+ 	{
+		width:31%; display:inline-block;
+	}
+	.myevent-main .det-drop ul
+ 	{
+ 		list-style:none; padding:0px; margin:0px; display:block; width:100%;
+ 	}
+ 	.myevent-main .det-drop ul li
+ 	{
+ 		display:block; width:100%;
+ 	}
+	.footer-main .f-content ul li
+	{
+		width:100%; margin-right:0%; vertical-align:top; border-bottom:solid 1px #666; padding-top:10px;
+	}
+	.footer-main .f-content ul li.first
+	{
+		width:100%;
+	}
+	.footer-main .f-content ul li.second
+	{
+		width:100%;
+	}
+	.footer-main .f-content ul li.last
+	{
+		width:100%;
+	}
+	.error-info
+	{
+		margin:10px auto; cursor:pointer;
+	}
+}
+@media only screen and (max-width: 700px) 
+{
+	
+	.event-form ul li.in50
+	{
+		width:100%; padding-bottom:5px;
+	}
+	.event-form ul li.in25
+	{
+		width:auto;
+	}
+	.event-form ul li.txt-right
+	{
+		text-align:left;
+	}
+	.ticket-tab ul li
+	{
+		display:block; width:94%; border:solid 1% #F16439; text-align:center; margin-right:0px; padding:20px 2%;
+	}
+	.ticket-tab ul li a
+	{
+		padding:20px 0px;
+	}
+	.join-tab
+ 	{
+		overflow-x:scroll; border:solid 1px #ccc;
+ 	}
+ 	.join-tab table
+ 	{
+ 		width:700px;
+ 	}
+	.join-tab td
+ 	{
+ 		padding:5px 5px 5px 5px; border:solid 1px #EFEFEF;
+ 	}
+	.join-tab1
+ 	{
+		overflow-x:scroll; border:solid 1px #ccc;
+ 	}
+ 	.join-tab1 table
+ 	{
+ 		width:700px;
+ 	}
+	.join-tab1 td
+ 	{
+ 		padding:5px 5px 5px 5px; border:solid 1px #EFEFEF;
+ 	}
+	.ev-reg-main .ev-reg-l
+ 	{
+		width:100%; margin-right:0;
+	}
+	.ev-reg-main .ev-reg-r
+ 	{
+		width:100%; border-top:solid 1px #2c2c2c; margin-top:10px; padding-top:10px;
+	}
+	.ev-reg-main .ev-reg-r .ev-main
+ 	{
+		display:inline-block; width:65%; vertical-align:top; margin-left:5%;
+	}
+	.ev-reg-main .ev-reg-r .img-area
+	{
+		display:inline-block; width:30%; vertical-align:top;
+	}
+	.have-ques .h-main .contact-info
+ 	{
+		width:99%; margin-right:0; border:1%; margin-bottom:10px;
+	}
+	.have-ques .h-main .share
+ 	{
+		width:100%; margin-right:0;
+	}
+	.curoius ul li.first
+	{
+		width:100%; margin-right:0%;
+	}
+	.curoius ul li.second
+	{
+		width:100%;
+	}
+	.ev-reg-main .ev-reg-l .st-form ul li.first
+ 	{
+ 		width:25%;
+	}
+	 .ev-reg-main .ev-reg-l .st-form ul li.second
+ 	{
+ 		width:70%;
+ 	}
+	.ev-reg-main .ev-reg-l .st-form li.err-txt
+ 	{
+ 		width:70%; margin-left:30%;
+ 	}
+ 	.ev-reg-main .ev-reg-l .st-form li.imp-info
+ 	{
+ 		width:70%; margin-left:30%;
+ 	}
+	.myevent-tab ul li
+ 	{
+		width:98%; border:0px;	
+ 	}
+	.login-area .login-f-area .edit-pr1 ul li
+	{
+		width:98%;
+	}
+}
+@media only screen and (max-width: 650px) 
+{
+	.live-txt
+	{
+		width:95%; left:2.5%; margin-left:0;
+	}
+	.myevent-main .myevent-list
+ 	{
+ 		display:block;
+ 	}
+	.myevent-main ul
+ 	{
+		display:block;
+ 	}
+	.myevent-main ul li
+ 	{
+		display:inline-block; width:31%;
+	}
+	 .myevent-main ul li.view-ticket
+ 	{
+		margin-top:3%;
+	}
+}
+@media only screen and (max-width: 600px) 
+{
+	.ev-search input
+	{
+		width:100%; padding:1% 3%; border:solid 1% #2C2C2C;
+	}
+	.ev-search ul li
+	{
+		display:block; width:100%; margin:5px 0px 5px 0px; overflow:hidden;
+	}
+	.ev-search ul li
+	{
+		max-width:100%;
+	}
+	.event-form ul li.first
+	{
+		width:100%; margin-right:0%; padding-bottom:5px;
+	}
+	.event-form ul li.second
+	{
+		width:100%;
+	}
+	.event-form .ev-cr-submit input
+	{
+		display:block; margin-bottom:5px; width:100%;
+	}
+	.event-form .ev-cr-submit input.last
+	{
+		margin-right:0px; margin-bottom:0px;
+	}
+	.event-form .ev-cr-submit input.last1
+	{
+		margin-right:0px; margin-bottom:0px;
+	}
+	.evnt-detls ul li
+	{
+		width:100%; border-bottom:solid 1px #ccc; padding:5px 0;
+	}
+	.evnt-detls ul li.first
+	{
+		width:100%; text-align:left; border:0px;
+	}
+	.evnt-d-form ul li
+	{
+		width:100%; margin:8px 0;
+	}
+	.evnt-d-form ul li.large
+	{
+		width:100%;
+	}
+	.evnt-d-form ul li.first
+	{
+		text-align:left;
+	}
+	.evnt-m-desc .evnt-desc-l
+ 	{
+		width:100%; margin-right:0;
+	}
+	.evnt-m-desc .evnt-desc-r
+ 	{
+		width:100%;
+	}
+	.evnt-det-main ul li
+	{
+		display:block; width:auto; padding-right:0; margin-bottom:10px;
+	}
+	.ev-reg-main .ev-reg-r .ev-main
+ 	{
+		width:100%; margin-left:0;
+	}
+	.ev-reg-main .ev-reg-r .img-area
+	{
+		width:100%;
+	}
+	.footer-main .f-bottom .f-left
+	{
+		width:100%;
+	}
+	.footer-main .f-bottom .f-right
+	{
+		width:100%; text-align:left;
+	}
+	.yout-box
+	{
+		width:88%; left:5%; margin-left:0; padding:1%;
+	}
+}
+@media only screen and (max-width: 500px) 
+{
+	.events-main .events
+	{
+		width:100%; margin-right:0%; padding:0; display:block;
+	}
+	
+	.subnav-main .subnav ul li
+	{
+		width:100%;
+	}
+	.login-area .login-f-area .f-login
+	{
+		display:block; width:100%;
+	}
+	.login-area .or-area
+	{
+		display:block; width:100%; margin:20px 0px;
+	}
+	.login-area .social-area
+	{
+		display:block; width:100%;
+	}
+	.login-area .social-area p
+	{
+		margin:0px 0px 10px 0px;
+	}
+	.event-form .imgfield
+	{
+		width:250px;
+	}
+	.ev-reg-main .ev-reg-l .sign-main
+ 	{
+		display:block;
+	}
+	.ev-reg-main .ev-reg-l .sign-main .sign-in
+ 	{
+		width:100%; display:block; padding:0 0 0 0; border-right:0px; border-bottom:solid 1px #2C2C2C;
+	}
+	.ev-reg-main .ev-reg-l .sign-main .sign-up
+ 	{
+		width:100%; display:block; padding:10px 0 0 0; border:0px;
+	}
+	.ev-reg-main .ev-reg-l .st-form ul li.first
+ 	{
+ 		width:100%; margin-bottom:5px; margin-right:0;
+	}
+	 .ev-reg-main .ev-reg-l .st-form ul li.second
+ 	{
+ 		width:100%;
+ 	}
+	.ev-reg-main .ev-reg-l .st-form li.err-txt
+ 	{
+ 		width:100%; margin-left:0%;
+ 	}
+ 	.ev-reg-main .ev-reg-l .st-form li.imp-info
+ 	{
+ 		width:100%; margin-left:0%;
+ 	}
+	.ev-reg-main .ev-reg-l .st-f-subm ul li.first
+ 	{
+ 		width:100%; margin-right:0%; margin-bottom:5px;
+ 	}
+ 	.ev-reg-main .ev-reg-l .st-f-subm ul li.second
+ 	{
+ 		width:100%; 
+ 	}
+	.myevent-main ul li
+ 	{
+		width:48%;
+	}
+	.myevent-main .myevent-list1 ul li
+ 	{
+		width:47%;
+	}
+	.contact-main .c-left
+	{
+		width:100%; margin-right:0%;
+	}
+	.contact-main .c-right
+	{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 450px) 
+{
+	.login-area .signup-chk
+	{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 400px) 
+{
+	.myevent-main ul li
+ 	{
+		width:94%; display:block;
+	}
+	.myevent-main .myevent-list1 ul li
+ 	{
+		width:95%;
+	}
+	.myevent-main .det-drop
+ 	{
+		top:30px;
+	}
+	.city-drop .city-list p
+	{
+		width:70px;
+	}
+}

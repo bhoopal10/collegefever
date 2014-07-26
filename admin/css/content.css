@@ -1,0 +1,137 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+pre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.mainmenu {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FDCDE4;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.mainmenu:hover {
+	color: #660099;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.menudots {
+	background-image: url(images/menudots.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.innerheadings {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FF7ABA;
+	text-decoration: none;
+}
+.topmenu {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FF6BB1;
+	text-decoration: none;
+}
+.topmenu:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footertxt {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #858383;
+	text-decoration: none;
+}
+.footermenu {
+
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #858383;
+	text-decoration: none;
+}
+.footermenu:hover {
+	color: #efefef;
+	text-decoration: underline;
+}
+.imgbdr {
+	border: 1px solid #B1B0AD;
+	padding: 2px;
+}
+.links {
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFC3E0;
+	text-decoration: underline;
+}
+.links:hover {
+	color: #FFC3E0;
+	text-decoration: none;
+}
+
+thead {
+	background-color: #FFBBBB;
+}
+
+tfoot {
+	background-color: #BBBBFF;
+}
+
+th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.thlink {
+color:#4F4F4F;
+text-decoration:none;
+font-weight:bold;
+}
+

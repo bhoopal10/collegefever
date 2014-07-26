@@ -1,0 +1,511 @@
+BODY {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+FORM {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+BODY {
+        PADDING-BOTTOM: 0px
+}
+TD {
+        VERTICAL-ALIGN: top
+}
+.td-new {
+        VERTICAL-ALIGN: bottom
+}
+.td-new1 {
+        VERTICAL-ALIGN: middle
+}
+.td-new2 {
+        VERTICAL-ALIGN: bottom
+}
+.td-listing {
+        VERTICAL-ALIGN: middle; COLOR: #555555
+}
+.td-login {
+     FONT-WEIGHT: bold; FONT-SIZE: 15px; VERTICAL-ALIGN: middle; COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.listlink:link {
+        FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: vTahoma; TEXT-DECORATION: none
+}
+.listlink:visited {
+        FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.listlink:hover {
+        FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.paginglink:link {
+        FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: vTahoma; TEXT-DECORATION: none
+}
+.paginglink:visited {
+        FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.paginglink:hover {
+        FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #336699; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+TH {
+        VERTICAL-ALIGN: middle; WHITE-SPACE: nowrap
+}
+.pathbar {
+        PADDING-RIGHT: 10px; PADDING-LEFT: 11px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.screenBody {
+        MARGIN: 0px 10px
+}
+.uplevel {
+        TEXT-ALIGN: right
+}
+.screenTitle {
+        MARGIN: 0px; VERTICAL-ALIGN: middle
+}
+.screenTitle TD {
+        PADDING-LEFT: 11px; PADDING-BOTTOM: 1px;PADDING-TOP: 2px; VERTICAL-ALIGN: middle;
+}
+.screenTitle IMG {
+        VERTICAL-ALIGN: middle
+}
+.screenTitle TD {
+        VERTICAL-ALIGN: middle
+}
+.screenTitle INPUT {
+        VERTICAL-ALIGN: middle
+}
+.screenTitle SELECT {
+        VERTICAL-ALIGN: middle
+}
+.reportSection {
+        MARGIN: 10px 0px
+}
+.reportTools {
+        VERTICAL-ALIGN: middle
+}
+.reportTools IMG {
+        VERTICAL-ALIGN: middle
+}
+.reportTools INPUT {
+        VERTICAL-ALIGN: middle
+}
+.reportTools SELECT {
+        VERTICAL-ALIGN: middle
+}
+.reportIndex {
+        MARGIN: 15px 0px
+}
+.reportSection {
+        PADDING-TOP: 5px
+}
+P {
+        MARGIN: 5px 0px
+}
+HR {
+        MARGIN: 5px 0px
+}
+.screenButtons {
+        WIDTH: 666px
+}
+.msgWarning {
+        MARGIN: 10px 0px
+}
+.msgWarning IMG {
+        FLOAT: left; MARGIN-RIGHT: 5px
+}
+HR {
+        CLEAR: both
+}
+.listArea TD INPUT {
+        VERTICAL-ALIGN: middle
+}
+.listArea TD SELECT {
+        VERTICAL-ALIGN: middle
+}
+.list TD {
+        PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.list TH {
+        PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.number {
+        TEXT-ALIGN: right
+}
+.number {
+        TEXT-ALIGN: right
+}
+.search INPUT {
+        VERTICAL-ALIGN: middle; MARGIN-RIGHT: 7px
+}
+.search .commonButton {
+        VERTICAL-ALIGN: middle; MARGIN-RIGHT: 7px
+}
+.list {
+        BORDER-COLLAPSE: collapse
+}
+.buttons {
+        MARGIN: 7px 0px
+}
+.buttons DIV {
+        WHITE-SPACE: nowrap
+}
+.buttons INPUT {
+        VERTICAL-ALIGN: middle
+}
+.buttons .commonButton {
+        VERTICAL-ALIGN: middle
+}
+.misc {
+        TEXT-ALIGN: right
+}
+.main INPUT {
+        MARGIN-RIGHT: 7px
+}
+.main .commonButton {
+        MARGIN-RIGHT: 14px
+}
+.misc INPUT {
+        MARGIN-LEFT: 7px
+}
+.misc .commonButton {
+        MARGIN-LEFT: 14px
+}
+TH A {
+        VERTICAL-ALIGN: middle
+}
+TH IMG {
+        PADDING-LEFT: 3px; VERTICAL-ALIGN: middle
+}
+.paging {
+        MARGIN: 7px 0px; VERTICAL-ALIGN: middle
+}
+.paging INPUT {
+        VERTICAL-ALIGN: middle; MARGIN-RIGHT: 7px
+}
+.paging .commonButton {
+        VERTICAL-ALIGN: middle; MARGIN-RIGHT: 7px
+}
+.paging SELECT {
+        VERTICAL-ALIGN: middle; MARGIN-RIGHT: 7px
+}
+.paging SELECT {
+        MARGIN-RIGHT: 3px
+}
+.select {
+        TEXT-ALIGN: center
+}
+.formArea {
+        
+}
+.formFields {
+        MARGIN-TOP: 2px; BORDER-COLLAPSE: collapse
+}
+.formFields TD {
+        PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: top; PADDING-TOP: 3px
+}
+.formFields INPUT {
+        VERTICAL-ALIGN: middle
+}
+.formFields SELECT {
+        VERTICAL-ALIGN: middle
+}
+.formFields TD.name {
+        PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; WIDTH: 150px ;TEXT-ALIGN: right
+}
+.formFields TD.nameError {
+        PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; WIDTH: 200px
+}
+TD.unlimited {
+        VERTICAL-ALIGN: middle
+}
+FIELDSET {
+        PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 10px
+}
+.screenButtons {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px
+}
+LEGEND {
+        PADDING-RIGHT: 5px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 3px; MARGIN-LEFT: -9px; VERTICAL-ALIGN: top
+}
+OPTION.dummyLine {
+        COLOR: #ffffff
+}
+#searchInput {
+        MARGIN-LEFT: -1px
+}
+UNKNOWN {
+        MARGIN-LEFT: -2px
+}
+LEGEND IMG {
+        VERTICAL-ALIGN: middle
+}
+FIELDSET P {
+        MARGIN: 5px 0px
+}
+.option {
+        MARGIN-BOTTOM: 5px
+}
+.formButtons {
+        MARGIN-TOP: 5px; TEXT-ALIGN: right
+}
+.formButtons INPUT {
+        MARGIN-LEFT: 7px
+}
+.formButtons BUTTON {
+        MARGIN-LEFT: 7px
+}
+.formFields TD.limit {
+        PADDING-RIGHT: 25px; WIDTH: 140px; WHITE-SPACE: nowrap
+}
+.formFields TD TD.limit {
+        PADDING-LEFT: 0px
+}
+.fieldButtons INPUT {
+        MARGIN: 5px 5px 0px 0px
+}
+.fieldButtons BUTTON {
+        MARGIN: 5px 5px 0px 0px
+}
+TEXTAREA {
+        /*WIDTH: 98%*/
+}
+.checkbox {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 13px; PADDING-TOP: 0px; HEIGHT: 13px
+}
+.radiobox {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 13px; PADDING-TOP: 0px; HEIGHT: 13px
+}
+#chkProceed {
+        MARGIN-LEFT: 3px
+}
+LEGEND .checkbox {
+        MARGIN-RIGHT: 3px
+}
+LEGEND .checkbox {
+        MARGIN-RIGHT: 3px
+}
+.formFields .checkbox {
+        MARGIN-RIGHT: 3px
+}
+.formFields .radiobox {
+        MARGIN-RIGHT: 3px
+}
+.suboption {
+        MARGIN-LEFT: 18px
+}
+.commonButton {
+        DISPLAY: inline
+}
+A.mailalias {
+        MARGIN-LEFT: 20px
+}
+.gaugeArea {
+        MARGIN: 2px 0px
+}
+.gaugeLayout TD {
+        BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none
+}
+#login {
+        MARGIN: 40px auto auto; WIDTH: 450px
+}
+#get_password {
+        PADDING-LEFT: 0px; TEXT-ALIGN: left
+}
+#get_password A:link {
+        COLOR: #444444
+}
+#get_password A:visited {
+        COLOR: #444444
+}
+#loginForm {
+        BORDER-RIGHT: #d1cbd0 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #d1cbd0 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #d1cbd0 1px solid
+}
+#fldset-mailInfo TD {
+        VERTICAL-ALIGN: middle
+}
+#fldset-mailInfo TD IMG {
+        VERTICAL-ALIGN: middle
+}
+#fldset-mailInfo TD A {
+        VERTICAL-ALIGN: middle
+}
+#fldset-mailInfo TD A:link {
+        COLOR: #444444
+}
+#fldset-mailInfo TD A:visited {
+        COLOR: #444444
+}
+#fldset-mailInfo TD IMG {
+        MARGIN-RIGHT: 3px
+}
+#fldset-mailInfo TD {
+        WIDTH: 25%
+}
+#fldset-admin_info {
+        FLOAT: left; WIDTH: 410px; MARGIN-RIGHT: 12px
+}
+#fldset-admin_info .screenButtons {
+        WIDTH: 333px
+}
+#fldset-power .screenButtons {
+        WIDTH: 222px
+}
+#tts_list PRE {
+        MARGIN: 10px; WHITE-SPACE: normal
+}
+#tts_list .tts_data {
+        PADDING-RIGHT: 20px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; WIDTH: 20%; COLOR: #444444; WHITE-SPACE: nowrap
+}
+.tts_created_by {
+        WIDTH: 60%
+}
+.tts_public {
+        WIDTH: 20%; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+.tts_created_by {
+        VERTICAL-ALIGN: middle
+}
+.tts_created_by IMG {
+        VERTICAL-ALIGN: middle
+}
+.tts_public {
+        VERTICAL-ALIGN: middle
+}
+.tts_public IMG {
+        VERTICAL-ALIGN: middle
+}
+#navArea IMG {
+        DISPLAY: block; MARGIN: 0px
+}
+#navArea {
+        PADDING-BOTTOM: 60px; PADDING-TOP: 12px
+}
+#navArea .node IMG {
+        DISPLAY: inline; MARGIN: 0px; VERTICAL-ALIGN: middle
+}
+#navArea .nodeActive IMG {
+        DISPLAY: inline; MARGIN: 0px; VERTICAL-ALIGN: middle
+}
+.navOpened {
+        BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(../images/nav_bg.jpg); MARGIN-BOTTOM: 15px; BACKGROUND-REPEAT: repeat-y
+}
+.navTitle {
+        CURSOR: hand; moz-user-select: none
+}
+.navTitleOver {
+        CURSOR: hand; moz-user-select: none
+}
+.navOpened .navTitle {
+        HEIGHT: 22px
+}
+.navOpened .navTitleOver {
+        HEIGHT: 22px
+}
+.navOpened .navTitle .titleText {
+        FONT-WEIGHT: bold; VERTICAL-ALIGN: middle
+}
+.navOpened .navTitleOver .titleText {
+        FONT-WEIGHT: bold; VERTICAL-ALIGN: middle
+}
+.navOpened .titleLeft {
+        VERTICAL-ALIGN: top; WIDTH: 14px
+}
+.navOpened .titleRight {
+        VERTICAL-ALIGN: top; WIDTH: 3px
+}
+.navOpened .titleHandle {
+        BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/navopened.gif); BACKGROUND-REPEAT: no-repeat
+}
+.navClosed {
+        BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(../images/nav_bg.jpg); MARGIN-BOTTOM: 15px; BACKGROUND-REPEAT: repeat-y
+}
+.navClosed .navTitle {
+        HEIGHT: 22px
+}
+.navClosed .navTitleOver {
+        HEIGHT: 22px
+}
+.navTitle .titleHandle {
+        WIDTH: 20px
+}
+.navTitleOver .titleHandle {
+        WIDTH: 20px
+}
+.navClosed .navTitle .titleText {
+        FONT-WEIGHT: bold; VERTICAL-ALIGN: middle
+}
+.navClosed .navTitleOver .titleText {
+        FONT-WEIGHT: bold; VERTICAL-ALIGN: middle
+}
+.navClosed .titleLeft {
+        VERTICAL-ALIGN: top; WIDTH: 14px
+}
+.navClosed .titleRight {
+        VERTICAL-ALIGN: top; WIDTH: 3px
+}
+.navClosed .titleHandle {
+        BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/navclosed.gif); BACKGROUND-REPEAT: no-repeat
+}
+DIV.tree {
+        PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 10px; MARGIN-LEFT: 1px; MARGIN-RIGHT: 1px; PADDING-TOP: 3px
+}
+.navOpened .tree {
+        DISPLAY: block
+}
+.navClosed .tree {
+        DISPLAY: none
+}
+.node {
+        PADDING-RIGHT: 0px; MARGIN-TOP: 4px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: middle; PADDING-TOP: 2px
+}
+.nodeActive {
+        PADDING-RIGHT: 0px; MARGIN-TOP: 4px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: middle; PADDING-TOP: 2px
+}
+.node .name {
+        PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; PADDING-TOP: 2px
+}
+.nodeActive .name {
+        PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; PADDING-TOP: 2px
+}
+.nodeImage {
+        BACKGROUND-POSITION: right 50%; PADDING-LEFT: 11px; WIDTH: 27px; BACKGROUND-REPEAT: no-repeat
+}
+#navLayout .nodeActive .name A {
+        TEXT-DECORATION: none
+}
+#navLayout .nodeActive .name A:hover {
+        TEXT-DECORATION: none
+}
+#navLayout .nodeActive .name A:visited {
+        TEXT-DECORATION: none
+}
+#navLayout .nodeActive .name A:active {
+        TEXT-DECORATION: none
+}
+#navLayout .name A {
+        TEXT-DECORATION: underline
+}
+#navLayout .name A:hover {
+        TEXT-DECORATION: underline
+}
+#navLayout .name A:visited {
+        TEXT-DECORATION: underline
+}
+#navLayout .name A:active {
+        TEXT-DECORATION: underline
+}
+.input2 {
+        color: #223344;
+        font-weight:bold;
+        PADDING-RIGHT: 3px;
+        PADDING-LEFT: 3px;
+        BACKGROUND-COLOR: #ECECEC
+}
+
+legend
+{
+color:#FFFFFF;
+font-weight:bold;
+background: #069DE2;
+border-left: #26a solid 1px;
+border-right: #26a solid 1px;
+padding: 1px 10px
+}
+
+

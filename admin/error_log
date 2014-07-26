@@ -1,0 +1,8 @@
+[25-May-2011 10:18:13] PHP Fatal error:  Cannot redeclare class db in /home4/dlwdemoc/public_html/wealthcreators/admin/sql.php on line 28
+[25-May-2011 10:18:22] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home4/dlwdemoc/public_html/wealthcreators/admin/viewnews.php on line 36
+[25-May-2011 10:18:22] PHP Fatal error:  Cannot redeclare class db in /home4/dlwdemoc/public_html/wealthcreators/admin/sql.php on line 28
+[25-May-2011 10:18:42] PHP Fatal error:  Cannot redeclare class db in /home4/dlwdemoc/public_html/wealthcreators/admin/sql.php on line 28
+[26-May-2011 12:33:22] PHP Fatal error:  Cannot redeclare class db in /home4/dlwdemoc/public_html/wealthcreators/admin/sql.php on line 28
+[26-May-2011 12:33:55] PHP Fatal error:  Cannot redeclare class db in /home4/dlwdemoc/public_html/wealthcreators/admin/sql.php on line 28
+[26-May-2011 12:34:09] PHP Fatal error:  Cannot redeclare class db in /home4/dlwdemoc/public_html/wealthcreators/admin/sql.php on line 28
+[12-Jul-2011 06:50:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home4/dlwdemoc/public_html/wealthcreators/admin/forgotpass.php on line 86
