@@ -307,7 +307,84 @@ if($_SESSION['uid']!="")
 <?php } ?>
   </div>
   <div id="selectEvents" style="display:none">
-  <?php include_once('select_event.php'); ?>
+  <?php
+        if(isset($_POST['select_event_submit']))
+        {
+
+          include('event_tc.php');
+          if($_POST['EventName'])
+          {
+            $count=count($_POST['memberName']);
+            $_SESSION['events'][$_POST['EventName']]['event']=$_POST['EventName'];
+            $_SESSION['events'][$_POST['EventName']]['member']=$_POST['memberName'];
+            $_SESSION['events'][$_POST['EventName']]['phone']=$_POST['Phone'];
+            $_SESSION['events'][$_POST['EventName']]['email']=$_POST['email'];
+            $_SESSION['events'][$_POST['EventName']]['college']=$_POST['college'];
+            $_SESSION['events'][$_POST['EventName']]['age']=$_POST['age'];
+            $_SESSION['events'][$_POST['EventName']]['height']=$_POST['candidateHight'];
+            $_SESSION['events'][$_POST['EventName']]['price']=($count * $event_tc[$_POST['EventName']]['price']);
+            $_SESSION['events'][$_POST['EventName']]['gender']=$_POST['gender'];
+            // $_Session['events'][$_POST['EventName']]['price']='99';
+           }
+           // ($count * $event_tc[$_POST['EventName']]['price']);
+        if($_POST['sEvent'][0])
+        {
+          if($_POST['tmLeader'])
+              {
+                $_SESSION['team_leader']['name']=$_POST['tmLeader'];
+                $_SESSION['team_leader']['phone']=$_POST['Phone'];
+                $_SESSION['team_leader']['college']=$_POST['college'];
+                $_SESSION['team_leader']['email']=$_POST['email'];
+                $_SESSION['team_leader']['accommodation']=$_POST['accommodation']*600;
+                $_SESSION['team_leader']['acc_no']=$_POST['accommodation'];
+              }
+            include_once('template/event_select/loadEvent.php');
+          }
+          else
+          {
+            $teamleader=$_SESSION['team_leader']['name'];
+            $tPhone=$_SESSION['team_leader']['phone'];
+            $tCollege=$_SESSION['team_leader']['college'];
+            $tEmail=$_SESSION['team_leader']['email'];
+            $acc_no=$_SESSION['team_leader']['acc_no'];
+            $user_id=$_SESSION['uid'];
+            $teamSql="INSERT INTO `teams` ( `user_id`, `name`, `email`, `college`, `accommodation`, `phone`) VALUES ('$user_id', '$teamleader', '$tEmail', '$tCollege', '$acc_no', '$tPhone')";
+            $teamInsert=mysql_query($teamSql);
+            $teamId=mysql_insert_id();
+            foreach($_SESSION['events'] as $mRow)
+            {
+              $event=$mRow['event'];
+              if($mRow['member'])
+              {
+                $count=count($mRow['member']);
+                for($i=0;$i<$count;$i++)
+                {
+                  $member=$mRow['member'][$i]?$mRow['member'][$i]:'';
+                  $email=$mRow['email'][$i]?$mRow['email'][$i]:'';
+                  $phone=$mRow['phone'][$i]?$mRow['phone'][$i]:'';
+                  $college=$mRow['college'][$i]?$mRow['college'][$i]:'';
+                  $age=$mRow['age'][$i]?$mRow['age'][$i]:'';
+                  $height=$mRow['height'][$i]?$mRow['height'][$i]:'';
+                  $gender=$mRow['gender'][$i]?$mRow['gender'][$i]:'';
+                 
+                  $sql="INSERT INTO `event_member` ( `user_id`, `team_id`, `event`, `member_name`, `email`, `phone`, `college`, `age`, `height`, `gender`)
+                           VALUES ('$user_id', '$teamId', '$event', '$member', '$email', '$phone', '$college', '$age', '$height', '$gender')";
+                  $insert=mysql_query($sql);
+                }
+              }
+            }
+            echo "finished";
+              unset($_SESSION['events']);
+              unset($_SESSION['team_leader']);
+          }
+        }
+        else
+        {
+            include_once('select_event.php'); 
+        }
+       
+
+       ?>
   </div>
   <div class="evnt-m-desc">
   	<div class="evnt-desc-l">

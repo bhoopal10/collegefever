@@ -33,9 +33,7 @@
 		<li class="label"><input min="4" max="20" ex="3" type="checkbox" name="expressions" value="500" id="lbl15" /><label for="lbl15">Expressions</label></li>
 		
 		<li class="label"><input min="5" max="18" type="checkbox" name="hallaBol" value="500" id="lbl16" /><label for="lbl16">Halla bol</label></li>
-
 		<li class="label"><input min="3" max="5" type="checkbox" name="voxPopuli" value="500" id="lbl17" /><label for="lbl17">Vox populi</label></li>
-		
 		<li class="label"><input min="2" max="2" type="checkbox" name="stratOSphere" value="500" id="lbl18" /><label for="lbl18">Strat o sphere</label></li>
 
 		<li class="label"><input min="1" max="1" type="checkbox" name="GGWP" value="500" id="lbl19" /><label for="lbl19">GGWP</label></li>
@@ -50,71 +48,21 @@
 	<ul>
 		<li class="InPut"><div class="err-txt" id="err-email"></div><input type="text" name="email" id="email" placeholder="Email"></li>
 	</ul>
-	<ul id="vanity-fill" style="display:none">
-		<hr>
-		<li class="InPut"><div class="err-txt" id="err-age"></div><input type="text" name="age" placeholder="Age" ></li>
-		<li class="InPut"><div class="err-txt" id="err-candidateHeight"></div><input type="text" name="candidateHeight" placeholder="Height" ></li>
-		<li class="radio"><div class="err-txt" id="err-gender"></div>
-			<input type="radio" name="gender" value="M" id="male"> <label for="male" style="color:black">Male</label>
-			<input type="radio" name="gender" value="F" id="female"> <label for="female" style="color:black">Female</label>
-		</li>
-	</ul>
 	<ul>
 		<li class="submit">
-
-		<input readonly="readonly" class="last" type="text" name="select_event_submit" value="0" id="totalAmount">
-
-		<input class="last" type="submit" name="select_event_submit" value="Proceed">
-
+			<input class="last" type="submit" name="select_event_submit" value="Proceed">
 		</li>
 	</ul>
 	<ul></ul>
 </form>
 <script type="text/javascript">
-	var tot=0;
-	$("input").change(function(){
-		
-		$(this).prop( "checked", function( i, val ) {
-			if(val)
-			{
-				if($(this).attr('type') == 'checkbox')
-				{
-					var newAmount = parseInt($(this).val());
-					tot= (tot + newAmount);
-					if($(this).attr('name') == 'vanity')
-					{
-						$('#vanity-fill').show();
-					}
-				}
-			}
-			else
-			{
-				if($(this).attr('type') == 'checkbox')
-				{
-					var newAmount =parseInt($(this).val());
-					tot= (tot - newAmount);
-					if($(this).attr('name') == 'vanity')
-					{
-						$('#vanity-fill').hide();
-					}
-				}
-			}
-			
-		});
-		$('#totalAmount').val(tot);
-		});
+	
 	function CheckEventSelect()
-   {
+	{
       var tl      =document.EventSelect.tmLeader.value;
       var phone   =$('#phone').val();
       var college =document.EventSelect.college.value;
-      var age     =document.EventSelect.age.value;
-      var gender  =document.EventSelect.gender.checked;
       var email   =document.EventSelect.email.value;
-      var height  =document.EventSelect.candidateHeight.value;
-      var vanity  =document.EventSelect.vanity.checked;
-      alert(gender);
-      return false;
       if(!tl)
       {
          document.getElementById('err-tl').innerHTML='Enter team leader name';
@@ -154,11 +102,10 @@
        {
           document.getElementById('err-college').innerHTML='';
              document.EventSelect.college.className='';
-
        }
       if(!email)
       {
-          document.getElementById('err-email').innerHTML='Email is required';
+      document.getElementById('err-email').innerHTML='Email is required';
            document.EventSelect.email.className="alert";
            document.EventSelect.email.focus();
          //alert('Email is required');
@@ -170,55 +117,6 @@
              document.EventSelect.email.className='';
 
        }
-      if(vanity)
-      {
-      	
-         if(!age)
-         {
-             document.getElementById('err-age').innerHTML='Age is required';
-              document.EventSelect.age.className="alert";
-              document.EventSelect.age.focus();
-            // alert('Age is required');
-             return false;
-         }
-          else
-          {
-             document.getElementById('err-age').innerHTML='';
-                document.EventSelect.age.className='';
-
-          }
-         if(!height)
-         {
-             document.getElementById('err-candidateHeight').innerHTML='Height is required';
-              document.EventSelect.candidateHeight.className="alert";
-              document.EventSelect.candidateHeight.focus();
-            //alert('Height is required');
-             return false;
-         }
-          else
-          {
-             document.getElementById('err-candidateHeight').innerHTML='';
-                document.EventSelect.candidateHeight.className='';
-
-          }
-      if(gender)
-         {
-             alert(gender);
-         	 document.getElementById('err-gender').innerHTML='';
-              document.EventSelect.gender.className="";
-              return true;
-         }
-         else
-         {
-         	
-              document.getElementById('err-gender').innerHTML='Gender is required';
-              document.EventSelect.gender.className="alert";
-             alert(gender);
-             return false;
-         }
-         
-      }
-      
-   }
+  }
 
 </script>

@@ -1,13 +1,16 @@
 <?php
 require('admin/sql.php');
 session_start();
+
 $getevfurl=mysql_fetch_object(mysql_query("select * from event where url='".$_REQUEST['url']."'"));
 
 if($getevfurl->id=="")
 {
 	?><script>alert('Invalid URL'); location.replace('index.php');</script><?php
 }
+/* modified added $Uri*/
 $Ruri=$getevfurl->url;
+/* modified ended*/
 
 $_REQUEST['page']='nosel';
 $_SESSION['edetid']=$getevfurl->id;
@@ -291,6 +294,7 @@ if($_SESSION['uid']!="")
       // modified starts
       if($Ruri == 'atharv')
       {
+      
         ?>
         <script type="text/javascript">
           $(function(){
@@ -467,7 +471,100 @@ else
   </div>
   <!-- Modified for atharv event -->
     <div id="selectEvents" style="display:none">
-      <?php include_once('select_event.php'); ?>
+
+      <?php
+        if(isset($_POST['select_event_submit']))
+        {
+
+          include('event_tc.php');
+          if($_POST['EventName'])
+          {
+            
+            $count=count($_POST['memberName']);
+            $_SESSION['events'][$_POST['EventName']]['event']=$_POST['EventName'];
+            $_SESSION['events'][$_POST['EventName']]['member']=$_POST['memberName'];
+            $_SESSION['events'][$_POST['EventName']]['phone']=$_POST['Phone'];
+            $_SESSION['events'][$_POST['EventName']]['email']=$_POST['email'];
+            $_SESSION['events'][$_POST['EventName']]['college']=$_POST['college'];
+            $_SESSION['events'][$_POST['EventName']]['age']=$_POST['age'];
+            $_SESSION['events'][$_POST['EventName']]['height']=$_POST['candidateHight'];
+            $_SESSION['events'][$_POST['EventName']]['price']=($count * $event_tc[$_POST['EventName']]['price']);
+            $_SESSION['events'][$_POST['EventName']]['gender']=$_POST['gender'];
+            $_SESSION['events']['totalPrice']=0;
+
+            // $_Session['events'][$_POST['EventName']]['price']='99';
+           }
+           // ($count * $event_tc[$_POST['EventName']]['price']);
+        if($_POST['sEvent'][0])
+        {
+          if($_POST['tmLeader'])
+              {
+                $_SESSION['team_leader']['name']=$_POST['tmLeader'];
+                $_SESSION['team_leader']['phone']=$_POST['Phone'];
+                $_SESSION['team_leader']['college']=$_POST['college'];
+                $_SESSION['team_leader']['email']=$_POST['email'];
+                $_SESSION['team_leader']['accommodation']=$_POST['accommodation']*600;
+                $_SESSION['team_leader']['acc_no']=$_POST['accommodation'];
+              }
+            include_once('template/event_select/loadEvent.php');
+          }
+          else
+          {
+            $teamleader=$_SESSION['team_leader']['name'];
+            $tPhone=$_SESSION['team_leader']['phone'];
+            $tCollege=$_SESSION['team_leader']['college'];
+            $tEmail=$_SESSION['team_leader']['email'];
+            $acc_no=$_SESSION['team_leader']['acc_no'];
+            $user_id=$_SESSION['uid'];
+            $teamSql="INSERT INTO `teams` ( `user_id`, `name`, `email`, `college`, `accommodation`, `phone`) VALUES ('$user_id', '$teamleader', '$tEmail', '$tCollege', '$acc_no', '$tPhone')";
+            $teamInsert=mysql_query($teamSql);
+            $teamId=mysql_insert_id();
+            foreach($_SESSION['events'] as $mRow)
+            {
+              $event=$mRow['event'];
+              $_SESSION['events']['totalPrice'] = $_SESSION['events']['totalPrice'] + $mRow['price'];
+              if($mRow['member'])
+              {
+                $count=count($mRow['member']);
+                for($i=0;$i<$count;$i++)
+                {
+                  $member=$mRow['member'][$i]?$mRow['member'][$i]:'';
+                  $email=$mRow['email'][$i]?$mRow['email'][$i]:'';
+                  $phone=$mRow['phone'][$i]?$mRow['phone'][$i]:'';
+                  $college=$mRow['college'][$i]?$mRow['college'][$i]:'';
+                  $age=$mRow['age'][$i]?$mRow['age'][$i]:'';
+                  $height=$mRow['height'][$i]?$mRow['height'][$i]:'';
+                  $gender=$mRow['gender'][$i]?$mRow['gender'][$i]:'';
+                  
+                  $sql="INSERT INTO `event_member` ( `user_id`, `team_id`, `event`, `member_name`, `email`, `phone`, `college`, `age`, `height`, `gender`)
+                           VALUES ('$user_id', '$teamId', '$event', '$member', '$email', '$phone', '$college', '$age', '$height', '$gender')";
+                           
+                  $insert=mysql_query($sql);
+                }
+              }
+            }
+            $totalAmount=$_SESSION['team_leader']['accommodation'] + $_SESSION['events']['totalPrice'];
+                   
+              unset($_SESSION['events']);
+              unset($_SESSION['team_leader']);
+              ?>
+              <form class ="common-form">
+              <ul><li></li></ul>
+                <div><span class="spanBtn">TOTAL (Rs.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $totalAmount; ?></span></div>
+                <span class="spanBtn"><a style="text-decoration:none" href="payment/atharv_payment.php">Proceed</a></span>
+                <ul><li></li></ul>
+              </form>
+              <?php
+          }
+        }
+        else
+        {
+            include_once('select_event.php'); 
+        }
+       
+
+       ?>
+
     </div>
   <!-- End Modified athrav event  -->
   

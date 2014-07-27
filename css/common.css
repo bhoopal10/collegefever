@@ -2564,7 +2564,7 @@ img
 }
 .common-form ul li.submit input[type="text"] 
 {
-	border: 1px solid #FFF;
+border: 1px solid #FFF;
 padding-top: 5px;
 padding-bottom: 5px;
 width: 17.9%;
@@ -2579,4 +2579,27 @@ padding-left: 19px;
 .err-txt
 {
 	display:block; font-size:14px;color:#FF0000;
+}
+.common-form ul li.Sno span
+{
+	border: 1px solid #FFF;
+padding: 0px 7px;
+border-radius: 20px;
+width: 17.9%;
+color: #FFF;
+font-weight: bold;
+background-color: #F16439;
+background-size: 3em 5em;
+background-repeat: no-repeat;
+
+}
+.spanBtn{
+border: 1px solid #FFF;
+padding: 0px 7px;
+width: 17.9%;
+color: #FFF;
+font-weight: bold;
+background-color: #F16439;
+background-size: 3em 5em;
+cursor: pointer;
 }
