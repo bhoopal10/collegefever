@@ -1,9 +1,8 @@
 <?php
-require('../admin/sql.php');
+require('admin/sql.php');
 session_start();
-	$getticket=mysql_fetch_object(mysql_query("select * from buyticket where id='".$_SESSION['buyins']."'"));
-	$getevdet=mysql_fetch_object(mysql_query("select * from event where id='".$getticket->eid."'"));
-	$getregdet=mysql_fetch_object(mysql_query("select * from register where id='".$getticket->uid."'"));
+	$getbook=mysql_fetch_object(mysql_query("select * from book_event where id='".$_SESSION['bookId']."'"));
+	$getregdet=mysql_fetch_object(mysql_query("select * from register where id='".$_SESSION['uid']."'"));
 
 ?>
 <?php
@@ -101,11 +100,11 @@ function submitPayuForm() {
 </script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
 </script>
-<script src="../js/jused.js" type="text/javascript"></script>
+<script src="js/jused.js" type="text/javascript"></script>
 <link href='http://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-<link href="../css/common.css" rel="stylesheet" type="text/css">
-<link href="../css/mobile_style.css" rel="stylesheet" type="text/css" />
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/mobile_style.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -115,11 +114,11 @@ function submitPayuForm() {
 </head>
 
 <body onLoad="submitPayuForm()">
-<?php include('../includes/header.php'); ?>
+<?php include('includes/header.php'); ?>
 <div class="container">
-	<h1>Ticket details of '<?php echo $getevdet->name; ?>'</h1>
+	<h1>Booking details of '<?php echo 'Atharv'; ?>'</h1>
   <div class="evnt-det-main" style="border-bottom:0px;">
-  	<ul>
+  	<!-- <ul>
 		<li><div class="ev1"><strong><?php echo $getevdet->vname; ?></strong>,<br>
 <?php echo $getevdet->vaddress1; ?>,<br>
 <?php if($getevdet->vaddress2!="") { ?>
@@ -133,7 +132,7 @@ function submitPayuForm() {
 <p><strong></strong></p>
 
 </li><?php } ?>
-	</ul>
+	</ul> -->
 <?php if($formError) { ?>
   <p style="color:red">Please fill all mandatory fields.</p>
 <?php } ?>	
@@ -141,7 +140,7 @@ function submitPayuForm() {
 <input type="hidden" name="key" value="<?php echo $MERCHANT_KEY ?>" >
 <input type="hidden" name="hash" value="<?php echo $hash ?>">
 <input type="hidden" name="txnid" value="<?php echo $txnid ?>" >
-<input type="hidden" name="amount" value="<?php echo $getticket->ttlprice; ?>" >
+<input type="hidden" name="amount" value="<?php echo $getbook->b_amount; ?>" >
 <input type="hidden" name="firstname" id="firstname" value="<?php echo $getregdet->name; ?>" >
 <input type="hidden" name="email" id="email" value="<?php echo $getregdet->email; ?>" >
 <input type="hidden" name="phone" value="0000000000" >
@@ -152,34 +151,21 @@ function submitPayuForm() {
 	<div class="join-tab scrollbar-our-definition">	
   <table border="0" cellspacing="0" cellpadding="8">
     <tr>
-      <td class="td-head"><strong>Ticket Category </strong></td>
+      <td class="td-head"><strong>Booking Details </strong></td>
       <td class="td-head"><strong>Price (Rs) </strong></td>
-      <td align="left" class="td-head"><strong>Quantity</strong></td>
+      <!-- <td align="left" class="td-head"><strong>Quantity</strong></td> -->
       <td align="right" class="td-head"><strong>Amount (Rs.) </strong></td>
     </tr>
 	<?php
-	$getbuyt=mysql_query("select * from buyt where bid='".$_SESSION['buyins']."'");
-	while($getbuyt1=mysql_fetch_object($getbuyt))
-	{
-		$gettic=mysql_fetch_object(mysql_query("select * from tickets where id='".$getbuyt1->tid."'"));
+	$getbuyt=mysql_query("select * from book_event where bid='".$_SESSION['bookId']."'");
 	?>
     <tr>
-      <td><strong><?php echo $gettic->name; ?></strong>
-	  <?php if($gettic->tdesc!="") { ?>
-		<br>(<?php echo $gettic->tdesc; ?>)
-	<?php } ?>
-	  </td>
-      <td align="center"><strong><?php echo $gettic->slprice; ?></strong></td>
-      <td align="left"><?php echo $getbuyt1->tcount; ?></td>
-      <td align="right"><strong><span id="tprice1"><?php echo $getbuyt1->tprice; ?></span></strong></td>
-    </tr>
-	<?php } ?>
-    <tr>
-      <td colspan="3" class="orange-txt"><strong><?php echo $getevdet->tinfo; ?></strong></td>
-      <td align="right"><strong>TOTAL (Rs.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="tprice2"><?php echo $getticket->ttlprice; ?></span></strong> </td>
+      <!-- <td colspan="3" class="orange-txt"><strong><?php echo $getevdet->tinfo; ?></strong></td> -->
+      <td align="right"><strong>TOTAL (Rs.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="tprice2"><?php echo $_SESSION['events']['Total']; ?></span></strong> </td>
     </tr>
   </table>
       </div>
+      <?php unset($_SESSION['events']); unset($_SESSION['tmLeader']); ?>
 	<div class="book-now1"><a href="event_detail_1.php">Back</a>&nbsp;&nbsp;&nbsp;<input type="submit" name="buyticket" id="buyticket" value="Proceed to payment">
 	  </div>
 	</form>
@@ -187,8 +173,8 @@ function submitPayuForm() {
   
   
 </div>
-<?php include('../includes/hosting.php'); ?>
-<?php include('../includes/social-main.php'); ?>
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/hosting.php'); ?>
+<?php include('includes/social-main.php'); ?>
+<?php include('includes/footer.php'); ?>
 </body>
 </html>

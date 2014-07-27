@@ -108,6 +108,63 @@ $headers1=$headers;
 		?><script>location.replace('event_detail_1_pay.php');</script><?php
 	}
 }
+
+/* modified */
+if(isset($_POST['BookNow']))
+{
+  $bSql="insert into book_event(uid,team_id,b_amount,pay) values('".$_SESSION['uid']."','".$_SESSION['events']['teamId']."','".$_SESSION['events']['Total']."','Pending')";
+  $book=mysql_query($bSql);
+  $_SESSION['bookId']=mysql_insert_id();
+  $getregdet=mysql_fetch_object(mysql_query("select * from register where id='".$_SESSION['uid']."'"));
+  $geturem=mysql_fetch_object(mysql_query("select * from register where id='".$_SESSION['uid']."'"));
+  $strTo=''.$geturem->email.'';
+      $strSubject='Ticket from College Fever' ;
+      $message = '
+      <table width="500" border="0" cellspacing="3" cellpadding="5" bgcolor="#F16439" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000;" align="center" >
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="2">
+       
+      </table></td>
+  </tr>
+  <tr>
+    <td width="59%" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="8" cellspacing="0" bgcolor="#CCCCCC" class="evtable">
+   
+      <tr>
+        <td bgcolor="#FFFFFF" style="border-right:solid 1px #ccc;"><strong>Total Price: </strong></td>
+        <td bgcolor="#FFFFFF" class="last">Rs. '.$_SESSION['events']['Total'].'</td>
+      </tr>
+    </table></td>
+    <td width="41%" rowspan="2" align="center" valign="top" bgcolor="#FFFFFF"></td>
+  </tr>
+  
+    </table></td>
+    </tr>
+  <tr>
+    <td colspan="2" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="79%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+          <tr>
+            <td><strong>This is your ticket<br />            
+              Print and present it at the event</strong></td>
+          </tr>
+        </table></td>
+        <td width="21%" align="right"><img src="http://thecollegefever.com/images/logotic.png" width="78" height="40" /></td>
+      </tr>
+      
+    </table></td>
+    </tr>
+</table>
+';
+$headers  = "From: info@thecollegefever.com \n";
+$headers .= "MIME-version: 1.0\n";
+$headers .= "Content-type: text/html; charset= iso-8859-1\n"; 
+$headers1=$headers;
+if($book)
+  {
+    ?><script>location.replace('atharv_payment.php');</script><?php
+  }
+}
 $getevdet=mysql_fetch_object(mysql_query("select * from event where id='".$_SESSION['edetid']."'"));
 $gtkcount=mysql_fetch_object(mysql_query("select sum(tcount) as tcount from buyticket where eid='".$_SESSION['edetid']."' and pay='Paid'"));
 $Ruri=$getevdet->url;
@@ -373,9 +430,9 @@ if($_SESSION['uid']!="")
                 }
               }
             }
-            echo "finished";
-              unset($_SESSION['events']);
-              unset($_SESSION['team_leader']);
+           $totalAmount=$_SESSION['team_leader']['accommodation'] + $_SESSION['events']['totalPrice'];
+            $_SESSION['events']['Total']=$totalAmount;       
+          include_once('template/event_select/make_atharv_payment.php');
           }
         }
         else
